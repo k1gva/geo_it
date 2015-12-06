@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf8">
         <script type="text/javascript" src="./libs/angular.js"></script>
         <script type="text/javascript" src="./libs/angular-route.js"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -8,20 +9,42 @@
         <!-- Bootstrap -->
         <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <script src="libs/ui-bootstrap-0.14.3.min.js"></script>
+        <!-- for unique filter: angular-filter-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
     </head>
 
     <body ng-app="appTest">
+        <h1>Generator für taktische Zeichen</h1>
+        <br>
+        <p>Hier kann das Zeichen ausgewählt werden, welches als Grundlage dienen soll:</p>
+        
+        <!-- Dropdown Liste für die Kategorie-->
         <div ng-controller="appController">
              <div class="btn-group" uib-dropdown is-open="status.isopen">
                   <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
                     Kategorie <span class="caret"></span>
                   </button>
                   <ul class="uib-dropdown-menu" role="menu" aria-labelledby="single-button">
-                    <li ng-repeat="symbol in symbols"><a href="#">{{ symbol.categorie }}</a></li>
+                    <li ng-repeat="symbol in symbols | unique: 'categorie'"><a href="#">{{ symbol.categorie }}</a></li>
                   </ul>
             </div>
         </div>
-
+        <br>
+        <!-- Dropdown Liste mit allen Symbolen aus der zuvor ausgewählten Kategorie-->
+        <div ng-controller="appController">
+             <div class="btn-group" uib-dropdown is-open="status.isopen">
+                  <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
+                    Symbole <span class="caret"></span>
+                  </button>
+                  <ul class="uib-dropdown-menu" role="menu" aria-labelledby="single-button">
+                    <li ng-repeat="symbol in symbols "><a href="#">{{ symbol.name }}</a></li>
+                  </ul>
+            </div>
+        </div>
+        <br>
+        <canvas style="width: 300px; height: 300px">
+            
+        </canvas>
 
     <!-- app-module-->
     <script src="./js/app.js"> </script>
