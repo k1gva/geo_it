@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FW_GW-G",
+        "id": 1,
+        "categorie": "Feuerwehr"
+    },
+    {
+        "name": "FW-RW",
+        "id": 2,
+        "categorie": "Feuerwehr"
+    },
+    {
+        "name": "LNA",
+        "id": 3,
+        "categorie": "nicht Feuerwehr"
+    },
+    {
+        "name": "verletze Person",
+        "id": 4,
+        "categorie": "Personen"
+    }
+]
