@@ -1,0 +1,46 @@
+[
+        {
+            "name": "Betreuungswesen",
+            "id": 1
+        },
+        {
+            "name": "Brandschutz technische Hilfe",
+            "id": 2
+        },
+        {
+            "name": "Führung und Leitung",
+            "id": 3
+        },
+        {
+            "name": "Grundzeichen",
+            "id": 4
+        },
+        {
+            "name": "Langebundene Fahrzeuge",
+            "id": 5
+        },
+        {
+            "name": "Luftfahrtzeuge",
+            "id": 6
+        },
+        {
+            "name": "Rettungswesen, Sanitärwesen, Gesundheitswesen",
+            "id": 7
+        },
+        {
+            "name": "Taktische Einheit",
+            "id": 8
+        },
+        {
+            "name": "Versorgung und Logistik",
+            "id": 9
+        },
+        {
+            "name": "Verwaltungsstufen",
+            "id": 10
+        },
+        {
+            "name": "Wasserfahrzeug",
+            "id": 11
+        }
+]
