@@ -28,7 +28,7 @@
         <p>Hier kann das Zeichen ausgewählt werden:</p>
         
         <div ng-controller="appController">
-          <!-- why you not working in select and option but in <li> ??? ng-click="onClick()"-->
+          <!-- ngRepeat error wird geworfen, allerdings wird das Zeichen korrekt in die Auswahl übernommen-->
           <select ng-model="symbols">
             <option ng-repeat="symbol in symbols" ng-click="onClick()" value="{{symbol.name}}"><a href="#" >{{symbol.name}}</a></option>
           </select> 

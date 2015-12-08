@@ -15,3 +15,7 @@ app.controller('appController', ['$scope','$http', function($scope, $http) {
     };
 
 }]);
+
+
+
+// http://stackoverflow.com/questions/24818542/first-dropdown-selection-changes-second-dropdown-selection-using-same-scope
