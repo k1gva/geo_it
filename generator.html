@@ -18,7 +18,6 @@
         <h1>Generator für taktische Zeichen</h1>
         <br>
         <p>Hier kann die Kategorie ausgewählt werden, zu welcher das Zeichen gehört:</p>
-        
         <div ng-controller="appController">
           <select ng-model="categorie" ng-options="symbol.categorie for symbol in symbols | unique: 'categorie'">
             <option></option>
@@ -28,9 +27,8 @@
         <p>Hier kann das Zeichen ausgewählt werden:</p>
         
         <div ng-controller="appController">
-          <!-- ngRepeat error wird geworfen, allerdings wird das Zeichen korrekt in die Auswahl übernommen-->
-          <select ng-model="symbols">
-            <option ng-repeat="symbol in symbols" ng-click="onClick()" value="{{symbol.name}}"><a href="#" >{{symbol.name}}</a></option>
+          <select ng-model="name" ng-options="symbol.name for symbol in symbols">
+            <option></option>
           </select> 
         </div>
         
