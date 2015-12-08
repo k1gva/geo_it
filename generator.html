@@ -4,6 +4,7 @@
         <meta charset="utf8">
         <script type="text/javascript" src="./libs/angular.js"></script>
         <script type="text/javascript" src="./libs/angular-route.js"></script>
+        <script type="text/javascript" src="./libs/angular-touch.min.js"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
         <!-- Bootstrap -->
@@ -16,8 +17,24 @@
     <body ng-app="appTest">
         <h1>Generator für taktische Zeichen</h1>
         <br>
-        <p>Hier kann das Zeichen ausgewählt werden, welches als Grundlage dienen soll:</p>
+        <p>Hier kann die Kategorie ausgewählt werden, zu welcher das Zeichen gehört:</p>
         
+        <div ng-controller="appController">
+          <select ng-model="categorie" ng-options="symbol.categorie for symbol in symbols | unique: 'categorie'">
+            <option></option>
+          </select> 
+        </div>
+        
+        <p>Hier kann das Zeichen ausgewählt werden:</p>
+        
+        <div ng-controller="appController">
+          <!-- why you not working in select and option but in <li> ??? ng-click="onClick()"-->
+          <select ng-model="symbols">
+            <option ng-repeat="symbol in symbols" ng-click="onClick()" value="{{symbol.name}}"><a href="#" >{{symbol.name}}</a></option>
+          </select> 
+        </div>
+        
+        <br>
         <!-- Dropdown Liste für die Kategorie-->
         <div ng-controller="appController">
              <div class="btn-group" uib-dropdown is-open="status.isopen">
@@ -25,7 +42,7 @@
                     Kategorie <span class="caret"></span>
                   </button>
                   <ul class="uib-dropdown-menu" role="menu" aria-labelledby="single-button">
-                    <li ng-repeat="categorie in categories"><a href="#">{{ categorie.name }}</a></li>
+                    <li ng-repeat="categorie in categories"><a ng-click="onClick()" href="#">{{ categorie.name }}</a></li>
                   </ul>
             </div>
         </div>
@@ -37,7 +54,7 @@
                     Symbole <span class="caret"></span>
                   </button>
                   <ul class="uib-dropdown-menu" role="menu" aria-labelledby="single-button">
-                    <li ng-repeat="symbol in symbols "><a href="#">{{ symbol.name }}</a></li>
+                    <li ng-repeat="symbol in symbols" ><a href="#">{{ symbol.name }}</a></li>
                   </ul>
             </div>
         </div>
