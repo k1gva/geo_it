@@ -2,31 +2,241 @@
     {
         "name": "Betreuung",
         "id": 1,
-        "categorie": "Betreuungswesen"
+        "categorie": "Betreuungswesen",
+        "filename": "Betreuungswesen_Betreuung.svg"
     },
     {
         "name": "Unterbringung",
         "id": 2,
         "categorie": "Betreuungswesen"
+        "filename": "Betreungswesen_Unterbringung.svg"
     },
     {
         "name": "Bergung",
         "id": 3,
         "categorie": "Brandschutz Technische Hilfe"
+        "filename": "BrandschutzTechnischeHilfe_Bergung.svg"
     },
     {
         "name": "Brandbekämpfung Löscheinsatz",
         "id": 4,
         "categorie": "Brandschutz Technische Hilfe"
+        "filename": "BrandschutzTechnischeHilfe_BrandbekämpfungLöscheinsatz.svg"
     },
     {
         "name": "Kampfmittelräumung",
-        "id": 4,
+        "id": 5,
         "categorie": "Brandschutz Technische Hilfe"
+        "filename": "BrandschutzTechnischeHilfe_Kampfmittelräumung.svg"
     },
     {
         "name": "Retten Höhen Tiefen",
-        "id": 4,
+        "id": 6,
         "categorie": "Brandschutz Technische Hilfe"
-    }
+        "filename": "BrandschutzTechnischeHilfe_RettenHoehenTiefen.svg"
+    },
+    {
+        "name": "Sprengung",
+        "id": 7,
+        "categorie": "Brandschutz Technische Hilfe"
+        "filename": "BrandschutzTechnischeHilfe_Sprengung.svg"
+    },    
+    {
+        "name": "Suchen mit Rettungshunden",
+        "id": 8,
+        "categorie": "Brandschutz Technische Hilfe"
+        "filename": "BrandschutzTechnischeHilfe_SuchenMitRettungshunden.svg"
+    },    
+    {
+        "name": "Erkundung",
+        "id": 9,
+        "categorie": "Führung und Leitung"
+        "filename": "FuehrungUndLeitung_Erkundung.svg"
+    },
+    {
+        "name": "Führung Leitung Stab",
+        "id": 10,
+        "categorie": "Führung und Leitung"
+        "filename": "FuehrungUndLeitung_FuehrungLeitungStab.svg"
+    },
+    {
+        "name": "Information Kommunikation Fernmeldewesen",
+        "id": 11,
+        "categorie": "Führung und Leitung"
+        "filename": "FuehrungUndLeitung_InformationKommunikationFernmeldewesen.svg"
+    },
+    {
+        "name": "Warnen",
+        "id": 12,
+        "categorie": "Führung und Leitung"
+        "filename": "FuehrungUndLeitung_Warnen.svg"
+    },
+    {
+        "name": "Anlass Ereignis",
+        "id": 13,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_AnlassEreignis.svg"
+    },    
+    {
+        "name": "Befehlsstelle",
+        "id": 14,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_Befehlsstelle.svg"
+    },
+    {
+        "name": "Gebäude",
+        "id": 15,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_Gebaeude.svg"
+    },  
+    {
+        "name": "Gefahr",
+        "id": 16,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_Gefahr.svg"
+    },    
+    {
+        "name": "Maßnahme Allgemein",
+        "id": 17,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_MaßnahmeAllgemein.svg"
+    },      
+    {
+        "name": "Ortsgebunden",
+        "id": 18,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_Ortsgebunden.svg"
+    },   
+    {
+        "name": "Person",
+        "id": 19,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_Person.svg"
+    }, 
+    {
+        "name": "StelleEinrichtung",
+        "id": 20,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_StelleEinrichtung.svg"
+    }, 
+    {
+        "name": "taktische Formation Dienststelle",
+        "id": 21,
+        "categorie": "Grundzeichen"
+        "filename": "Grundzeichen_taktischeFormationDienststelle.svg"
+    },  
+    {
+        "name": "Fahrzeug",
+        "id": 22,
+        "categorie": "landgebundene Fahrzeuge"
+        "filename": "Landgeb.Fahrzeuge_Fahrzeug.svg"
+    },  
+    {
+        "name": "geländegängiges Fahrzeug",
+        "id": 23,
+        "categorie": "landgebundene Fahrzeuge"
+        "filename": "Landgeb.Fahrzeuge_gelaendegaengigesFahrzeug.svg"
+    },  
+    {
+        "name": "Kraftfahrzeug",
+        "id": 24,
+        "categorie": "landgebundene Fahrzeuge"
+        "filename": "Landgeb.Fahrzeuge_Kraftfahrzeug.svg"
+    },   
+    {
+        "name": "Flugzeug",
+        "id": 25,
+        "categorie": "Luftfahrzeuge"
+        "filename": "Luftfahrzeuge_Fluzeug.svg"
+    },  
+    {
+        "name": "Hubschrauber",
+        "id": 26,
+        "categorie": "Luftfahrzeuge"
+        "filename": "Luftfahrzeuge_Hubschrauber.svg"
+    },      
+    {
+        "name": "Ärztliche Versorgung",
+        "id": 27,
+        "categorie": "Rettungswesen Sanitätswesen Gesundheitswesen"
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_AerztlicheVersorgung.svg"
+    },  
+    {
+        "name": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "id": 28,
+        "categorie": "Rettungswesen Sanitätswesen Gesundheitswesen"
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_RettungswesenSanitaetswesenGesundheitswesen.svg"
+    },  
+    {
+        "name": "Gruppe",
+        "id": 29,
+        "categorie": "Taktische Einheit"
+        "filename": "TaktischeEinheit_Gruppe.svg"
+    },   
+    {
+        "name": "Staffel",
+        "id": 30,
+        "categorie": "Taktische Einheit"
+        "filename": "TaktischeEinheit_Staffel.svg"
+    },   
+    {
+        "name": "Trupp",
+        "id": 31,
+        "categorie": "Taktische Einheit"
+        "filename": "TaktischeEinheit_Trupp.svg"
+    },  
+    {
+        "name": "Zug",
+        "id": 32,
+        "categorie": "Taktische Einheit"
+        "filename": "TaktischeEinheit_Zug.svg"
+    }, 
+    {
+        "name": "Verpflegung",
+        "id": 33,
+        "categorie": "Versorgung und Logistik"
+        "filename": "VersorgungUndLogistik_Verpflegung.svg"
+    },  
+    {
+        "name": "Versorgung Logistik",
+        "id": 34,
+        "categorie": "Versorgung und Logistik"
+        "filename": "VersorgungUndLogistik_VersorgungLogistik.svg"
+    },
+    {
+        "name": "Bezirk",
+        "id": 35,
+        "categorie": "Verwaltungsstufen"
+        "filename": "Verwaltungsstufen_Bezirk.svg"
+    },     
+    {
+        "name": "Bundesrepublik",
+        "id": 36,
+        "categorie": "Verwaltungsstufen"
+        "filename": "Verwaltungsstufen_Bundesrepublik.svg"
+    },    
+    {
+        "name": "Gemeinde",
+        "id": 37,
+        "categorie": "Verwaltungsstufen"
+        "filename": "Verwaltungsstufen_Gemeinde.svg"
+    },   
+    {
+        "name": "Kreis Lanndkreis kreisfreie Stadt",
+        "id": 38,
+        "categorie": "Verwaltungsstufen"
+        "filename": "Verwaltungsstufen_KreisLandkreisKreisfreieStadt.svg"
+    },        
+    {
+        "name": "Land Freistaat",
+        "id": 39,
+        "categorie": "Verwaltungsstufen"
+        "filename": "Verwaltungsstufen_LandFreistaat.svg"
+    }, 
+    {
+        "name": "Wasserfahrzeug",
+        "id": 40,
+        "categorie": "Wasserfahrzeug"
+        "filename": "Wasserfahrzeug_Wasserfahrzeug.svg"
+    },        
 ]
