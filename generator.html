@@ -18,32 +18,58 @@
         <h1>Generator für taktische Zeichen</h1>
         <br>
         <p>Hier kann die Kategorie ausgewählt werden, zu welcher das Zeichen gehört:</p>
-        <div ng-controller="appController">
-          <select ng-model="categorie" ng-options="symbol.categorie for symbol in symbols | unique: 'categorie'">
+        <!-- Dropdown für die Kategorie-->
+        <div ng-controller="appControllerSymbols">
+          <select ng-model="category" ng-options="symbol.category for symbol in symbols | unique: 'category'">
             <option></option>
           </select> 
         </div>
         
         <p>Hier kann das Zeichen ausgewählt werden:</p>
-        
-        <div ng-controller="appController">
+        <!-- Dropdown für das Zeichen das angepasst werden soll-->
+        <div ng-controller="appControllerSymbols">
           <select ng-model="name" ng-options="symbol.name for symbol in symbols">
             <option></option>
           </select> 
         </div>
         
         <br>
-       
-        <br>
+        <!-- Canvas-Element in das das Zeichen eingeladen werden soll -->
         <canvas style="width: 300px; height: 300px" id="myCanvas">
-            
+            Sorry, aber Canvas wird von ihrem Browser nicht unterstützt!
         </canvas>
+        
+        <!-- Form-Element in das der Name und die Kategorie für das neu gestaltete Zeichen eingetragen werden soll-->
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputName" class="col-sm-2 control-label">Name des Zeichens</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" placeholder="Name" id="inputName">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputKategorie" class="col-sm-2 control-label">Kategorie des Zeichens</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" placeholder="Name" id="inputKategorie">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div ng-controller="postController">
+                <!-- Button der das Speichern des Zeichens übernimmt-->
+                <button type="submit" class="btn btn-default" ng-click="speichern()">Zeichen speichern</button>
+              </div>
+            </div>
+          </div>
+          
+        </form>
 
     <script type="text/javascript" src="./js/canvas.js"> </script>
     <!-- app-module-->
     <script src="./js/app.js"> </script>
     <!-- app-controller-->
-    <script src="./js/ctrl/appController.js"> </script>
+    <script src="./js/ctrl/appControllerSymbols.js"> </script>
+    <script src="./js/ctrl/postController.js"> </script>
     </body>
 
 </html>

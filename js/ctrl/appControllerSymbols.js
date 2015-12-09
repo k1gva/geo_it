@@ -1,4 +1,5 @@
-app.controller('appController', ['$scope','$http', function($scope, $http) {
+// Controller um die JSON-Datei mit den Symbolen einzulesen
+app.controller('appControllerSymbols', ['$scope','$http', function($scope, $http) {
     
     $scope.symbols = [];
     
@@ -9,11 +10,6 @@ app.controller('appController', ['$scope','$http', function($scope, $http) {
         console.log($scope.symbols);
     });
     
-    
-    $scope.onClick = function() {
-        console.log('test');
-    };
-
 }]);
 
 
