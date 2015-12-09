@@ -20,7 +20,8 @@
         <p>Hier kann die Kategorie ausgewählt werden, zu welcher das Zeichen gehört:</p>
         <!-- Dropdown für die Kategorie-->
         <div ng-controller="appControllerSymbols">
-          <select ng-model="category" ng-options="symbol.category for symbol in symbols | unique: 'category'">
+            <!-- | unique: 'category' damit jede Kategorie nur einmal aufgeführt wird-->
+          <select ng-model="category" ng-change="loadSymbols(category)" ng-options="symbol.category for symbol in symbols | unique: 'category'">
             <option></option>
           </select> 
         </div>

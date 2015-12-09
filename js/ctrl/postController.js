@@ -8,10 +8,11 @@ app.controller('postController', ['$scope','$http', function($scope, $http) {
         console.log('hier wird dann mal gespeichert');
     };
     
+    $scope.inhalt = [];
     
     // http.post an API-Endpunkt
     $scope.sendPost = function() {
         
-    }
+    };
     
 }]);
