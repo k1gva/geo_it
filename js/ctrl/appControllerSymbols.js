@@ -3,22 +3,32 @@ app.controller('appControllerSymbols', ['$scope','$http', function($scope, $http
     
     $scope.symbols = [];
     
+    
     $scope.loadSymbols = function(category) {
         $scope.symbolList = [];
-         console.log(category);
+       //  console.log(category);
          
         angular.forEach($scope.symbols, function(symbol) {
-            console.log('innerhalb loadSymbols' + category);
+            //console.log('innerhalb loadSymbols' + category);
            
             if (symbol.category == category.category) {
-                console.log('2.innerhalb loadSymbols');
+                //console.log('2.innerhalb loadSymbols');
                 $scope.symbolList.push(symbol);
-                console.log('loadSymbols +' + $scope.symbolList);
+                
             }
+            console.log('Symbolliste +' + $scope.symbolList);
             //Objekt suchen und das dann dort einfügen.. Filter auf das untere Dropdown legen --> Filterwert vom oberen Dropdown
             $scope.name = $scope.symbolList;
+            //console.log('$scope.name:' + $scope.name);
             // https://github.com/sNiklasch/feuerwehrGIS/blob/master/webgis/public/app/templates/fgis/_fieldContent.html
         });
+    };
+    
+    $scope.symbolsFilter = '';
+    
+    $scope.filterSymbols = function(string) {
+        console.log('Filter:' + string);
+        $scope.symbolsFilter = string;
     };
 
     // promise mit asynchronem Aufruf der die Symbole aus der JSON-Datei holt
@@ -28,7 +38,7 @@ app.controller('appControllerSymbols', ['$scope','$http', function($scope, $http
         //console.log($scope.symbols);
 
     }).then(function() {
-        console.log("2. Log" + $scope.symbols);
+       // console.log("2. Log" + $scope.symbols);
     }).then($scope.loadSymbols());
 
 }]);

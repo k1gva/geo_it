@@ -17,22 +17,48 @@
     <body ng-app="appTest">
         <h1>Generator für taktische Zeichen</h1>
         <br>
+        <!-- Test-Area-->
+        
         <p>Hier kann die Kategorie ausgewählt werden, zu welcher das Zeichen gehört:</p>
         <!-- Dropdown für die Kategorie-->
         <div ng-controller="appControllerSymbols">
             <!-- | unique: 'category' damit jede Kategorie nur einmal aufgeführt wird-->
+          <select ng-model="symbol" ng-change="filterSymbols(symbol.category)" ng-options="symbol.category for symbol in symbols | unique: 'category'">
+            <option></option>
+          </select> 
+        </div>
+
+        <p>Hier kann das Zeichen ausgewählt werden:</p>
+        <!-- Dropdown für das Zeichen das angepasst werden soll-->
+        <div ng-controller="appControllerSymbols">
+            <!-- aktuell liegt hier noch der Hase im Pfeffer und will nicht so, wie er soll! -->
+          <select ng-model="symbol" ng-options="symbol.name for symbol in symbols | filter: symbolsFilter">
+            <option></option>
+          </select> 
+        </div>
+        
+        <!-- /Test-Area>
+        
+        
+        <!--
+        <p>Hier kann die Kategorie ausgewählt werden, zu welcher das Zeichen gehört:</p>
+        <!-- Dropdown für die Kategorie
+        <div ng-controller="appControllerSymbols">
+            <!-- | unique: 'category' damit jede Kategorie nur einmal aufgeführt wird
           <select ng-model="category" ng-change="loadSymbols(category)" ng-options="symbol.category for symbol in symbols | unique: 'category'">
             <option></option>
           </select> 
         </div>
         
         <p>Hier kann das Zeichen ausgewählt werden:</p>
-        <!-- Dropdown für das Zeichen das angepasst werden soll-->
+        <!-- Dropdown für das Zeichen das angepasst werden soll
         <div ng-controller="appControllerSymbols">
           <select ng-model="name" ng-options="symbol.name for symbol in symbols">
             <option></option>
           </select> 
         </div>
+        
+        -->
         
         <br>
         <!-- Canvas-Element in das das Zeichen eingeladen werden soll -->
