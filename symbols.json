@@ -106,17 +106,17 @@
     },  
     {
         "name": "Fahrzeug",
-        "category": "landgebundene Fahrzeuge",
+        "category": "Landgebundene Fahrzeuge",
         "filename": "Landgeb.Fahrzeuge_Fahrzeug.svg"
     },  
     {
         "name": "geländegängiges Fahrzeug",
-        "category": "landgebundene Fahrzeuge",
+        "category": "Landgebundene Fahrzeuge",
         "filename": "Landgeb.Fahrzeuge_gelaendegaengigesFahrzeug.svg"
     },  
     {
         "name": "Kraftfahrzeug",
-        "category": "landgebundene Fahrzeuge",
+        "category": "Lndgebundene Fahrzeuge",
         "filename": "Landgeb.Fahrzeuge_Kraftfahrzeug.svg"
     },   
     {

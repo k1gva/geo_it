@@ -4,12 +4,12 @@ $(document).ready(function() {
     
     // Variablen um die Dropdowmenüs aus der generator.html anzusprechen
     var dropKategorie = $('#dropdownKategorie');
-    var dropSymbole = $('#dropdownSymbol');
+
     
     
     // 
     var kategorie = $();
-    var symbole = $();
+
     
     // auslesen der Kategorien aus der categories.json
     $.getJSON("./categories.json", function(json) {
@@ -21,6 +21,7 @@ $(document).ready(function() {
         });
     });
     
+    /**
     // auslesen der Symbole aus der symbols.json
     $.getJSON("./symbols.json", function(json) {
         symbole = json;
@@ -29,6 +30,7 @@ $(document).ready(function() {
             dropSymbole.append('<option>' + value.name + '</option>');
         });
     });
+    */
     
 });
 
@@ -36,6 +38,24 @@ $(document).ready(function() {
 function selectKategorie() {
     var gewaehlteKategorie = $('#dropdownKategorie').val();
     console.log(gewaehlteKategorie);
+    
+    var symbole = $();
+    var dropSymbole = $('#dropdownSymbol');
+    dropSymbole.empty();
+    var gleich = '';
+    
+    $.getJSON("./symbols.json", function(json) {
+        symbole = json;
+        console.log('Symbole: ' + symbole + 'Anzahl Symbole: ' + symbole.length);
+        $.each(symbole, function(index, value) {
+            gleich = value.category;
+            //console.log(gleich);
+            if (gleich === gewaehlteKategorie) {
+                dropSymbole.append('<option>' + value.name + '</option>');    
+            }
+            
+        });
+    });
     
 }
 
