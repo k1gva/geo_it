@@ -160,16 +160,6 @@
         "filename": "TaktischeEinheit_Zug.svg"
     }, 
     {
-        "name": "Verpflegung",
-        "category": "Versorgung und Logistik",
-        "filename": "VersorgungUndLogistik_Verpflegung.svg"
-    },  
-    {
-        "name": "Versorgung Logistik",
-        "category": "Versorgung und Logistik",
-        "filename": "VersorgungUndLogistik_VersorgungLogistik.svg"
-    },
-    {
         "name": "Bezirk",
         "category": "Verwaltungsstufen",
         "filename": "Verwaltungsstufen_Bezirk.svg"
@@ -198,5 +188,270 @@
         "name": "Wasserfahrzeug",
         "category": "Wasserfahrzeug",
         "filename": "Wasserfahrzeug_Wasserfahrzeug.svg"
-    }     
+    },  
+    {
+        "name": "Brückenbau",
+        "category": "Allgemeine Maßnahmen",
+        "filename": "AllgemeineMaßnahmen_Brückenbau.svg"
+    }, 
+    {
+        "name": "Dekontamination",
+        "category": "Allgemeine Maßnahmen",
+        "filename": "AllgemeineMaßnahmen_Dekontamination.svg"
+    },    
+    {
+        "name": "Erkunden Beobachten",
+        "category": "Allgemeine Maßnahmen",
+        "filename": "AllgemeineMaßnahmen_ErkundenBeobachten.svg"
+    },  
+    {
+        "name": "Räumen",
+        "category": "Allgemeine Maßnahmen",
+        "filename": "AllgemeineMaßnahmen_Raeumen.svg"
+    },   
+    {
+        "name": "Sprengung",
+        "category": "Allgemeine Maßnahmen",
+        "filename": "AllgemeineMaßnahmen_Sprengung.svg"
+    },   
+    {
+        "name": "Transportieren",
+        "category": "Allgemeine Maßnahmen",
+        "filename": "AllgemeineMaßnahmen_Transportieren.svg"
+    },    
+    {
+        "name": "Bildübertragung",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Bilduebertragung.svg"
+    },  
+    {
+        "name": "Datenübertragung",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Datenuebertragung.svg"
+    },   
+    {
+        "name": "Fax",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Fax.svg"
+    },
+    {
+        "name": "Fernschreiben",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Fernschreiben.svg"
+    },  
+    {
+        "name": "Fernsprechen",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Fernsprechen.svg"
+    },   
+    {
+        "name": "Festbildübertragung",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Festbilduebertragung.svg"
+    },  
+    {
+        "name": "Kabelbau",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Draht",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberDraht_Kabelbau.svg"
+    },   
+    {
+        "name": "Bildübertragung",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Bilduebertragung.svg"
+    },  
+    {
+        "name": "Datenübertragung",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Datenuebertragung.svg"
+    }, 
+    {
+        "name": "Digitaler Sprechfunk",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_DigitalerSprechfunk.svg"
+    }, 
+    {
+        "name": "DMOBetrieb",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_DMOBetrieb.svg"
+    },
+    {
+        "name": "Fahrzeugfunkgeraet",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Fahrzeugfunkgeraet.svg"
+    }, 
+    {
+        "name": "Fernschreiben",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Fernschreiben.svg"
+    },  
+    {
+        "name": "Fernsprechen",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Fernsprechen.svg"
+    },  
+    {
+        "name": "Festbildübertragung",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Festbilduebertragung.svg"
+    },    
+    {
+        "name": "Feststation",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Feststation.svg"
+    },    
+    {
+        "name": "Handfunkgerät",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Handfunkgeraet.svg"
+    },  
+    {
+        "name": "Relaisfunkbetrieb",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Relaisfunkbetrieb.svg"
+    },  
+    {
+        "name": "Richtbetrieb",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_Richtbetrieb.svg"
+    },    
+    {
+        "name": "TMOBetrieb",
+        "category": "Darstellung von Informations- und Kommunikationsmitteln über Funk",
+        "filename": "DarstellungVonInformations-UndKommunikationsmitteln_UeberFunk_TMOBetrieb.svg"
+    }, 
+    {
+        "name": "Person mit Sonderfunktion",
+        "category": "Personen mit Sonderfunktion",
+        "filename": "PersonenMitSonderfunktion_PersonMitSonderfunktion.svg"
+    },  
+    {
+        "name": "Brauchwasser",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Brauchwasser.svg"
+    }, 
+    {
+        "name": "Brücke",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Bruecke.svg"
+    }, 
+    {
+        "name": "Geräte",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Geraete.svg"
+    }, 
+    {
+        "name": "Lautsprecher",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Lautsprecher.svg"
+    },  
+    {
+        "name": "Sirene",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Sirene.svg"
+    }, 
+    {
+        "name": "Sprengmittel Sprengkörper Blindgänger",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_SprengittelSprengkoerperBlindgaenger.svg"
+    },  
+    {
+        "name": "Trinkwasser",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Trinkwasser.svg"
+    },  
+    {
+        "name": "Unterbringung Unterkunft",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_UnterbringungUnterkunft.svg"
+    },  
+    {
+        "name": "Verpflegung",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Verpflegung.svg"
+    },   
+    {
+        "name": "Versorgung mit Betriebsstoffen und Verbrauchsgütern",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_VersorgungMitBetriebsstoffenUndVerbrauchsgütern.svg"
+    },    
+    {
+        "name": "Zelt",
+        "category": "Sonstige Einsatzmittel Gefahrenquellen",
+        "filename": "SonstigeEinsatzmittelGefahrenquellen_Zelt.svg"
+    },
+    {
+        "name": "Hinweis auf akute Situation",
+        "category": "Sonstige Zeichen",
+        "filename": "SonstigeZeichen_HinweisAufAkuteSituation.svg"
+    }, 
+    {
+        "name": "Hinweis auf Vermutung",
+        "category": "Sonstige Zeichen",
+        "filename": "SonstigeZeichen_HinweisAufVermutung.svg"
+    },   
+    {
+        "name": "Abteilung (Verband II)",
+        "category": "Taktische Verbände",
+        "filename": "TaktischeVerbaende_Abteilung(VerbandII).svg"
+    },   
+    {
+        "name": "Bereitschaft (Verband I)",
+        "category": "Taktische Verbände",
+        "filename": "TaktischeVerbaende_Bereitschaft(VerbandI).svg"
+    },  
+    {
+        "name": "Großverband (Verband III)",
+        "category": "Taktische Verbände",
+        "filename": "TaktischeVerbaende_Großverband(VerbandIII).svg"
+    },  
+    {
+        "name": "Grenze des Einsatzraumes einer TEL",
+        "category": "Trennlinien Und Grenzen von Einsatzräumen",
+        "filename": "TrennlinienUndGrenzenVonEinsatzraeumen_GrenzeDesEinsatzraumesEinerTEL.svg"
+    },
+    {
+        "name": "Grenze des Einsatzraumes eines Zuges",
+        "category": "Trennlinien Und Grenzen von Einsatzräumen",
+        "filename": "TrennlinienUndGrenzenVonEinsatzraeumen_GrenzeDesEinsatzraumesEinesZuges.svg"
+    },  
+    {
+        "name": "Grenze eines Einsatzabschnittes",
+        "category": "Trennlinien Und Grenzen von Einsatzräumen",
+        "filename": "TrennlinienUndGrenzenVonEinsatzraeumen_GrenzeEinesEinsatzabschnittes.svg"
+    },   
+    {
+        "name": "Grenze eines Untereinsatzabschnittes",
+        "category": "Trennlinien Und Grenzen von Einsatzräumen",
+        "filename": "TrennlinienUndGrenzenVonEinsatzraeumen_Untereinsatzabschnittes.svg"
+    },
+    {
+        "name": "Versorgungstrupp (Materialerhaltung)",
+        "category": "Versorgung Feuerwehr",
+        "filename": "Versorgung_Feuerwehr_Versorgungstrupp(Materialerhaltung).svg"
+    },     
+    {
+        "name": "Versorgungstrupp (Verbrauchsgüter)",
+        "category": "Versorgung Feuerwehr",
+        "filename": "Versorgung_Feuerwehr_Versorgungstrupp(Verbrauchsgueter).svg"
+    },    
+    {
+        "name": "Versorgungstrupp (Verpflegung)",
+        "category": "Versorgung Malteser",
+        "filename": "Versorgung_Malteser_Versorgungstrupp(Verpflegung).svg"
+    },  
+    {
+        "name": "Instandhaltung Instandsetzung materielle Infrastruktur",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_InstandhaltungInstandsetzungMaterielleInfrastruktur.svg"
+    }, 
+    {
+        "name": "Verpflegung",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_Verpflegung.svg"
+    },  
+    {
+        "name": "Versorgung Logistik",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_VersorgungLogistik.svg"
+    }
 ]
