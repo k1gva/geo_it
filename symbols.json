@@ -10,9 +10,29 @@
         "filename": "Betreungswesen_Unterbringung.svg"
     },
     {
+        "name": "ABC-Schutz CBRN-Schutz",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_ABCSchutzCBRNSchutz.svg"
+    }, 
+    {
+        "name": "Abwehr von Wassergefahren Deichverteidigung",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_AbwehrVonWassergefahrenDeichverteidigung.svg"
+    },
+    {
+        "name": "Beleuchtung",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_Beleuchtung.svg"
+    },    
+    {
         "name": "Bergung",
         "category": "Brandschutz Technische Hilfe",
         "filename": "BrandschutzTechnischeHilfe_Bergung.svg"
+    },
+    {
+        "name": "Beseitigung von Umweltschäden auf Gewässern Ölschadenbekämpfung",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_BeseitigungVonUmweltschaedenAufGewaessernOelschadenbekaempfung.svg"
     },
     {
         "name": "Brandbekämpfung Löscheinsatz",
@@ -20,10 +40,60 @@
         "filename": "BrandschutzTechnischeHilfe_BrandbekämpfungLöscheinsatz.svg"
     },
     {
+        "name": "Dekontamination",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_Dekontamination.svg"
+    }, 
+    {
+        "name": "Einsatz von Luftfahrzeugen",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_EinsatzVonLuftfahrzeugen.svg"
+    }, 
+    {
+        "name": "Einsatz von Wasserfahrzeugen",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_EinsatzVonWasserfahrzeugen.svg"
+    }, 
+    {
+        "name": "Fachzug",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_Fachzug.svg"
+    },    
+    {
+        "name": "heben von Lasten",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_HebenVonLasten.svg"
+    },    
+    {
         "name": "Kampfmittelräumung",
         "category": "Brandschutz Technische Hilfe",
         "filename": "BrandschutzTechnischeHilfe_Kampfmittelräumung.svg"
     },
+    {
+        "name": "messen spüren",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_MessenSpueren.svg"
+    },    
+    {
+        "name": "Pumpen Lenzen Beseitigung von Wasserschäden",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_PumpenLenzenBeseitigungVonWasserschaeden.svg"
+    },    
+    {
+        "name": "Räumen Beseitigung von Hindernissen",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_RaeumenBeseitigungVonHindernissen.svg"
+    },    
+    {
+        "name": "Retten aus Höhen",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_RettenAusHoehen.svg"
+    }, 
+    {
+        "name": "Retten aus Tiefen",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_RettenAusTiefen.svg"
+    },    
     {
         "name": "Retten Höhen Tiefen",
         "category": "Brandschutz Technische Hilfe",
@@ -39,6 +109,81 @@
         "category": "Brandschutz Technische Hilfe",
         "filename": "BrandschutzTechnischeHilfe_SuchenMitRettungshunden.svg"
     },    
+    {
+        "name": "Technische Hilfeleistungen",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_TechnischeHilfeleistungen.svg"
+    },
+    {
+        "name": "Transport",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_Transport.svg"
+    },    
+    {
+        "name": "Wasserrettung",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_Wasserrettung.svg"
+    },    
+    {
+        "name": "Wasserversorgung Förderung",
+        "category": "Brandschutz Technische Hilfe",
+        "filename": "BrandschutzTechnischeHilfe_WasserversorgungFoerderung.svg"
+    },   
+    {
+        "name": "ABC Erkundungsgruppe",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_ABCErkundungsgruppe.svg"
+    },  
+    {
+        "name": "Analytische Taskforce ATF",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_AnalytischeTaskforceATF.svg"
+    },     
+    {
+        "name": "Dekontaminationsgruppe Gerät",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_DekontaminationsgruppeGeraet.svg"
+    },     
+    {
+        "name": "Dekontaminationsgruppe Person",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_DekontaminationsgruppePerson.svg"
+    },         
+    {
+        "name": "Drehleiter mit Korb",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_DrehleiterMitKorb.svg"
+    },         
+    {
+        "name": "Gefahrstoffzug ABC Zug CBRN Zug",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_GefahrstoffzugABCZugCBRNZug.svg"
+    },         
+    {
+        "name": "Höhenrettungsgruppe Einer",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_HoehenrettungsgruppeEiner.svg"
+    },         
+    {
+        "name": "Löschzug",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_Löschzug.svg"
+    }, 
+    {
+        "name": "Rüstwagen",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_Ruestwagen1.svg"
+    },  
+    {
+        "name": "Schlauchwagen SW 2000 TR",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_SchlauchwagenSW2000Tr.svg"
+    },   
+    {
+        "name": "Tauchergruppe",
+        "category": "Brandschutz Technische Hilfe Feuerwehr",
+        "filename": "BrandschutzTechnischeHilfe_Feuerwehr_Tauchergruppe.svg"
+    },         
     {
         "name": "Erkundung",
         "category": "Führung und Leitung",
@@ -60,6 +205,36 @@
         "filename": "FuehrungUndLeitung_Warnen.svg"
     },
     {
+        "name": "Führer einer Bereitschaft",
+        "category": "Führungskräfte",
+        "filename": "Fuehrungskraefte_FuehrerEinerBereitschaft.svg"
+    }, 
+    {
+        "name": "Führungskraft",
+        "category": "Führungskräfte",
+        "filename": "Fuehrungskraefte_Fuehrungskraft.svg"
+    }, 
+    {
+        "name": "Gruppenführer",
+        "category": "Führungskräfte",
+        "filename": "Fuehrungskraefte_Gruppenfuehrer.svg"
+    },
+    {
+        "name": "Truppführer",
+        "category": "Führungskräfte",
+        "filename": "Fuehrungskraefte_Truppfuehrer.svg"
+    },  
+    {
+        "name": "Zugführer",
+        "category": "Führungskräfte",
+        "filename": "Fuehrungskraefte_Zugfuehrer.svg"
+    },   
+    {
+        "name": "Akute Gefahr",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_AkuteGefahr.svg"
+    },     
+    {
         "name": "Anlass Ereignis",
         "category": "Grundzeichen",
         "filename": "Grundzeichen_AnlassEreignis.svg"
@@ -70,14 +245,49 @@
         "filename": "Grundzeichen_Befehlsstelle.svg"
     },
     {
+        "name": "Drohende Gefahr",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_DrohendeGefahr.svg"
+    },  
+    {
+        "name": "Dürregebiet",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_Duerregebiet.svg"
+    }, 
+    {
+        "name": "Einschränkungen Ausfall der Versorgung",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_EinschraenkungenAusfallDerVersorgung.svg"
+    },    
+    {
+        "name": "Flächenbrand",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_Flaechenbrand.svg"
+    },   
+    {
         "name": "Gebäude",
         "category": "Grundzeichen",
         "filename": "Grundzeichen_Gebaeude.svg"
     },  
     {
+        "name": "Gebiet Fläche",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_GebietFlaeche.svg"
+    },    
+    {
         "name": "Gefahr",
         "category": "Grundzeichen",
         "filename": "Grundzeichen_Gefahr.svg"
+    },  
+    {
+        "name": "KatS-Alarm",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_KatS-Alarm.svg"
+    }, 
+    {
+        "name": "Kontaminiertes Gebiet (Biologisch Chemisch)",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_KontaminiertesGebiet(BiologischChemisch.svg"
     },    
     {
         "name": "Maßnahme Allgemein",
@@ -95,6 +305,11 @@
         "filename": "Grundzeichen_Person.svg"
     }, 
     {
+        "name": "Sonstige Großflächige Schadensgebiete",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_SonstigeGrosflaechigeSchadensgebiete.svg"
+    },    
+    {
         "name": "StelleEinrichtung",
         "category": "Grundzeichen",
         "filename": "Grundzeichen_StelleEinrichtung.svg"
@@ -105,6 +320,36 @@
         "filename": "Grundzeichen_taktischeFormationDienststelle.svg"
     },  
     {
+        "name": "überschwemmtes Gebiet",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_UeberschwemmtesGebiet(Hochwasser).svg"
+    },  
+    {
+        "name": "Von einer Gefahr noch betroffenes Gebiet ehemals betroffenes Gebiet",
+        "category": "Grundzeichen",
+        "filename": "Grundzeichen_VonEinerGefahrNochBetroffenesGebietEhemalsBetroffenesGebiet.svg"
+    },
+    {
+        "name": "Abrollbehälter Container",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_AbrollbehaelterContainer.svg"
+    },   
+    {
+        "name": "Anhänger",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Anhaenger.svg"
+    },  
+    {
+        "name": "Bagger",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Bagger.svg"
+    },
+    {
+        "name": "Fahrrad",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Fahrrad.svg"
+    },      
+    {
         "name": "Fahrzeug",
         "category": "Landgebundene Fahrzeuge",
         "filename": "Landgeb.Fahrzeuge_Fahrzeug.svg"
@@ -113,12 +358,42 @@
         "name": "geländegängiges Fahrzeug",
         "category": "Landgebundene Fahrzeuge",
         "filename": "Landgeb.Fahrzeuge_gelaendegaengigesFahrzeug.svg"
-    },  
+    }, 
+    {
+        "name": "Hebegerät",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Hebegeraet.svg"
+    }, 
+    {
+        "name": "Kettenfahrzeug",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Kettenfahrzeug.svg"
+    },      
     {
         "name": "Kraftfahrzeug",
         "category": "Lndgebundene Fahrzeuge",
         "filename": "Landgeb.Fahrzeuge_Kraftfahrzeug.svg"
-    },   
+    }, 
+    {
+        "name": "Kraftrad",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Kraftrad.svg"
+    },  
+    {
+        "name": "Räumgerät Radlader Raupe",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_RaeumgeraetRadladerRaupe.svg"
+    }, 
+    {
+        "name": "Schienenfahrzeug",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Schienenfahrzeug.svg"
+    },  
+    {
+        "name": "Wechselladerfahrzeug",
+        "category": "Landgebundene Fahrzeuge",
+        "filename": "Landgeb.Fahrzeuge_Wechselladerfahrzeug.svg"
+    },      
     {
         "name": "Flugzeug",
         "category": "Luftfahrzeuge",
@@ -128,17 +403,172 @@
         "name": "Hubschrauber",
         "category": "Luftfahrzeuge",
         "filename": "Luftfahrzeuge_Hubschrauber.svg"
-    },      
+    },
     {
         "name": "Ärztliche Versorgung",
         "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
         "filename": "RettungswesenSanitaetswesenGesundheitswesen_AerztlicheVersorgung.svg"
     },  
     {
+        "name": "Arztbesetzte Patientenablage",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_ArztbesetztePatientenablage.svg"
+    },    
+    {
+        "name": "Arztgruppe",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Arztgruppe.svg"
+    }, 
+    {
+        "name": "Behandlungsplatz",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Behandlungsplatz.svg"
+    }, 
+    {
+        "name": "Betreuungsstelle",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Betreuungsstelle.svg"
+    },    
+    {
+        "name": "Betreuungszug des Arbeiter Samariter Bundes",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_BetreuungszugDesArbeiterSamariterBundes.svg"
+    },    
+    {
+        "name": "Bootstrupp des DLRG",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_BootstruppDesDLRG.svg"
+    },    
+    {
+        "name": "Einheit Psychosoziale Notfallversorgung",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_EinheitPsychosozialeNotfallversorgung.svg"
+    },    
+    {
+        "name": "Einsatzeinheit",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Einsatzeinheit.svg"
+    },    
+    {
+        "name": "Gruppe für soziale Betreuung",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_GruppeFuerSozialeBetreuung.svg"
+    },    
+    {
+        "name": "Gruppe für Verpflegung",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_GruppeFuerVerpflegung.svg"
+    },    
+    {
+        "name": "Gruppe Technik und Sicherheit einer Einsatzeinheit des DRK",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_GruppeTechnikUndSicherheitEinerEinsatzeinheitDesDRK.svg"
+    },    
+    {
+        "name": "Gruppe zur Herrichtung von Notunterkünften",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_GruppeZurHerrichtungVonNotunterkünften.svg"
+    },     
+    {
+        "name": "Halteplatz für Fahrzeuge zum Transport von Verletzten Erkrankten",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_HalteplatzFuerFahrzeugeZumTransportVonVerletztenErkrankten.svg"
+    },     
+    {
+        "name": "Krankenhaus",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Krankenhaus.svg"
+    },  
+    {
+        "name": "Krankentransportwagen",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Krankentransportwagen.svg"
+    },      
+    {
+        "name": "Medizinische Taskforce",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_MedizinischeTaskForce.svg"
+    },      
+    {
+        "name": "Notarzteinsatzfahrzeug",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Notarzteinsatzfahrzeug.svg"
+    },      
+    {
+        "name": "Notarztwagen",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Notarztwagen.svg"
+    },      
+    {
+        "name": "Patientenablage",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Patientenablage.svg"
+    },  
+    {
+        "name": "Patiententransportgruppe",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Patiententransportgruppe.svg"
+    },      
+    {
+        "name": "Rettungsdienst",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Rettungsdienst.svg"
+    },      
+    {
+        "name": "Rettungswagen",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Rettungswagen.svg"
+    }, 
+    {
         "name": "Rettungswesen Sanitätswesen Gesundheitswesen",
         "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
         "filename": "RettungswesenSanitaetswesenGesundheitswesen_RettungswesenSanitaetswesenGesundheitswesen.svg"
+    }, 
+    {
+        "name": "Sammelplatz für Betroffene",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_SammelplatzFuerBetroffene.svg"
+    },      
+    {
+        "name": "Sammelstelle",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Sammelstelle.svg"
     },  
+    {
+        "name": "Sanitätsgruppe",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Sanitaetsgruppe.svg"
+    },   
+    {
+        "name": "Sanitätszug des Arbeiter Samariter Bundes",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_SanitaetszugDesArbeiterSamariterBundes.svg"
+    },      
+    {
+        "name": "Schnelleinsatzgruppe Rettungsdienst Sanitätsdienst",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Schnell-Einsatz-GruppeRettungsSanitaetsdienst.svg"
+    },      
+    {
+        "name": "Schnelleinsatzgruppe Betreuung",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_SchnellEinsatzGruppeBetreuung.svg"
+    },      
+    {
+        "name": "Strömungsrettungstrupp des DLRG",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_StroemungsrettungstruppDesDLRG.svg"
+    },      
+    {
+        "name": "Unterkunft",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_Unterkunft.svg"
+    },      
+    {
+        "name": "Wasserrettungszug des DLRG",
+        "category": "Rettungswesen Sanitätswesen Gesundheitswesen",
+        "filename": "RettungswesenSanitaetswesenGesundheitswesen_WasserrettungszugDesDLRG.svg"
+    },      
     {
         "name": "Gruppe",
         "category": "Taktische Einheit",
@@ -168,7 +598,12 @@
         "name": "Bundesrepublik",
         "category": "Verwaltungsstufen",
         "filename": "Verwaltungsstufen_Bundesrepublik.svg"
-    },    
+    },  
+    {
+        "name": "Europäische Union",
+        "category": "Verwaltungsstufen",
+        "filename": "Verwaltungsstufen_EuropäischeUnion.svg"
+    },      
     {
         "name": "Gemeinde",
         "category": "Verwaltungsstufen",
@@ -453,5 +888,255 @@
         "name": "Versorgung Logistik",
         "category": "Versorgung und Logistik",
         "filename": "VersorgungUndLogistik_VersorgungLogistik.svg"
-    }
+    },
+    {
+        "name": "Versorgung mit Brauchwasser",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_VersorgungMitBrauchwasser.svg"
+    },  
+    {
+        "name": "Versorgung mit Elektrizität",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_VersorgungMitElektrizität.svg"
+    },   
+    {
+        "name": "Versorgung mit Trinkwasser",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_VersorgungMitTrinkwasser.svg"
+    },  
+    {
+        "name": "Versorgung mit Verbrauchsgütern und Betriebsstoffen",
+        "category": "Versorgung und Logistik",
+        "filename": "VersorgungUndLogistik_VersorgungMitVerbrauchsgueternUndBetriebsstoffen.svg"
+    },   
+    {
+        "name": "Schlachten",
+        "category": "Veterinärwesen",
+        "filename": "Veterinaerwesen_Schlachten.svg"
+    },   
+    {
+        "name": "Schlacht- und Untersuchungsgruppe",
+        "category": "Veterinärwesen",
+        "filename": "Veterinaerwesen_SchlachtUndUntersuchungsgruppe.svg"
+    },     
+    {
+        "name": "Tier Dekontamination und Transportgruppe",
+        "category": "Veterinärwesen",
+        "filename": "Veterinaerwesen_TierDekonUndTransportgruppe.svg"
+    },  
+    {
+        "name": "Veterinärwesen",
+        "category": "Veterinärwesen",
+        "filename": "Veterinaerwesen_Veterinärwesen.svg"
+    },  
+    {
+        "name": "Veterinärzug",
+        "category": "Veterinärwesen",
+        "filename": "Veterinaerwesen_Veterinaerzug.svg"
+    },
+    {
+        "name": "Ausgangspunkt einer Bewegung",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_AusgangspunktEinerBewegung.svg"
+    }, 
+    {
+        "name": "Bewegung in zwei Richtungen",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_BewegungInZweiRichtungen.svg"
+    }, 
+    {
+        "name": "deutlich erhöhte Aktivität bis 75 Prozent Ausfall",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_deutlichErhoehteAktivitätBis75ProzentAusfall.svg"
+    },
+    {
+        "name": "Endpunkt einer Bewegung",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_EndpunktEinerBewegung.svg"
+    },
+    {
+        "name": "Geringfügig erhöhte Aktivität bis 25 Prozent Ausfall",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_GeringfuegigErhoehteAktivitaetBis25ProzentAusfall.svg"
+    },    
+    {
+        "name": "Moderat erhöhte Aktivität bis 50 Prozent Ausfall",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_ModeratErhoehteAktivitaetBis50ProzentAusfall.svg"
+    }, 
+    {
+        "name": "Richtung des Vortragens eines Einsatzes",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_RichtungDesVortragensEinesEinsatzes.svg"
+    },
+    {
+        "name": "Richtung gerichtete Bewegung Verbindung",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_RichtungGerichteteBewegungVerbindung.svg"
+    },    
+    {
+        "name": "Sammeln",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_Sammeln.svg"
+    },    
+    {
+        "name": "Stark erhöhte Aktivität Totalausfall",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_StarkErhoehteAktivitaetTotalausfall.svg"
+    }, 
+    {
+        "name": "Tendenz Fallend",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_TendenzFallend.svg"
+    },  
+    {
+        "name": "Tendenz Steigend",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_TendenzSteigend.svg"
+    },        
+    {
+        "name": "Tendenz Unverändert",
+        "category": "Zeichen zur Darstellung von Richtungen Bewegungen Sammelpunkten",
+        "filename": "ZeichenZurDarstellungVonRichtungenBewegungenSamelpunkten_TendenzUnveraendert.svg"
+    },   
+    {
+        "name": "Akute Gefahr durch...",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_AkuteGefahrDurch...svg"
+    },    
+    {
+        "name": "Angeschlagen Beschädigt",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_AngeschlagenBeschaedigt.svg"
+    },  
+    {
+        "name": "Entstehungsbrand",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_Entstehungsbrand.svg"
+    },    
+    {
+        "name": "Fortentwickelter Brand",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_FortentwickelterBrand.svg"
+    },    
+    {
+        "name": "Gefährliche Stoffe",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefaehrlicheStoffe.svg"
+    },    
+    {
+        "name": "Gefahr durch elektrische Energie",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefahrDurchElektrischeEnergie.svg"
+    },    
+    {
+        "name": "Gefahr durch Explosion",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefahrDurchExplosion.svg"
+    },    
+    {
+        "name": "Gefahr durch Explosionsfähige Kampfmittel oder Explosivstoffe",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefahrDurchExplosionsfaehigeKampfmittelOderExplosivstoffe.svg"
+    },                          
+    {
+        "name": "Gefahr durch Mineralöl",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefahrDurchMineraloel.svg"
+    }, 
+    {
+        "name": "Gefahr durch Radioaktivität (A,B,C)",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefahrDurchRadioaktivitaet(A,B,C).svg"
+    },      
+    {
+        "name": "Gefahr durch Wassereinbruch",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GefahrDurchWassereinbruch.svg"
+    },      
+    {
+        "name": "Gerettete Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_GerettetePerson.svg"
+    },      
+    {
+        "name": "Hinweis auf vermutete Gefahr durch...",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_HinweisAufVeruteteGefahrDurch...svg"
+    },      
+    {
+        "name": "nicht befahrbar blockiert",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_NichtBefahrbarBlockiert.svg"
+    },      
+    {
+        "name": "Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_Person.svg"
+    },      
+    {
+        "name": "schwierig befahrbar teilblockiert",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_SchwierigBefahrbarTeilblockiert.svg"
+    },      
+    {
+        "name": "Teilzerstört Teilweise Zusammengebrochen",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_TeilzerstörtTeilweiseZusammengebrochen.svg"
+    },      
+    {
+        "name": "Total Zerstört Total Zusammengebrochen",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_TotalZerstörtTotalZusammengebrochen.svg"
+    }, 
+    {
+        "name": "tote Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_TotePerson.svg"
+    },
+    {
+        "name": "totes Tier",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_TotesTier.svg"
+    },      
+    {
+        "name": "transportierte Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_TransportiertePerson.svg"
+    },  
+    {
+        "name": "Überschwemtes Gebiet",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_UeberschwemmtesGebiet.svg"
+    },      
+    {
+        "name": "verletzte Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_VerletztePerson.svg"
+    },   
+    {
+        "name": "verletztes Tier",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_VerletztesTier.svg"
+    }, 
+    {
+        "name": "vermisste Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_VermisstePerson.svg"
+    }, 
+    {
+        "name": "verschüttete Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_VerschuettetePerson.svg"
+    },    
+    {
+        "name": "Vollbrand",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_Vollbrand.svg"
+    },      
+    {
+        "name": "zu transportierende Person",
+        "category": "Zeichen zur Gefahren-Schadendarstellung",
+        "filename": "ZeichenZurGefahrenSchadendarstellung_ZuTransportierendePerson.svg"
+    }      
 ]

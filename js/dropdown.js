@@ -5,7 +5,9 @@ $(document).ready(function() {
     // Variablen um die Dropdowmenüs aus der generator.html anzusprechen
     var dropKategorie = $('#dropdownKategorie');
     var kategorie = $();
-
+    
+    // erster Eintrag leer --> .change() wird ausgelöst
+    dropKategorie.append('<option>' + ' ' + '</option>');
 
     // auslesen der Kategorien aus der categories.json
     $.getJSON("./categories.json", function(json) {
@@ -32,6 +34,9 @@ function selectSymbol() {
     dropSymbole.empty();
     var gleich = '';
     
+    // erster Eintrag leer --> .change() wird ausgelöst
+    dropSymbole.append('<option>' + ' ' + '</option>');
+    
     // auslesen der symbols.json Datei
     $.getJSON("./symbols.json", function(json) {
         symbole = json;
@@ -43,12 +48,24 @@ function selectSymbol() {
             //console.log(gleich);
             // wenn Symbol-Kategorie und gewählte Kategorie übereinstimmen --> Symbol wird in Dropdown angehängt
             if (gleich === gewaehlteKategorie) {
-                dropSymbole.append('<option>' + value.name + '</option>');    
+                dropSymbole.append('<option>' + value.name + '</option>');
             }
         });
     });
 }
 
+// Fkt. die das gewählte Symbol an das Canvas-Element übergibt
+function loadSymbol() {
+    
+    var gewaehltesSymbol = $('#dropdownSymbol').val();
+    
+    
+
+    
+}
+
+
 // wenn auf das Dropdown-Menü für die Kategorie ein change-Ereignis stattfindet, dann wird die Funktion selectKategorie aufgerufen
 $('#dropdownKategorie').change(selectSymbol);
 
+$('#dropdownSymbol').change(loadSymbol);
