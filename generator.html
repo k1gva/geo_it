@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf8">
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script> -->
+        <script type="text/javascript" src="/libs/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="/libs/paper-full.min.js"></script>
         <!-- Bootstrap -->
         <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,12 +39,24 @@
                 <canvas id="myCanvas" class="col-sm-2 control-label">
                     Sorry, aber Canvas wird von ihrem Browser nicht unterstützt!
                 </canvas>
-
-                <label for="inputTextRechts" class="col-sm-2 control-label">Text der in das Zeichen unten rechts eingefügt werden soll: </label>
-                <div class="col-sm-2 col-sm-8">
-                    <input type="text" class="form-control" id="inputTextRechts">
+                
+                <div>
+                    <label for="inputTextRechts" class="col-sm-2 control-label">Text der in das Zeichen unten rechts eingefügt werden soll: </label>
+                    <div class="col-sm-2 col-sm-8">
+                        <input type="text" class="form-control" id="inputTextRechts">
+                    </div>
+                    <button type="button" class="btn btn-default" id="buttonTextRechts">Text hinzufügen</button>
                 </div>
-                <button type="button" class="btn btn-default" onclick="textRechts()" id="buttonText">Text hinzufügen</button>
+                
+                <br>
+                
+                <div>
+                    <label for="inputTextLinks" class="col-sm-2 control-label">Text der in das Zeichen oben links eingefügt werden soll: </label>
+                    <div class="col-sm-2 col-sm-8">
+                        <input type="text" class="form-control" id="inputTextLinks">
+                    </div>
+                    <button type="button" class="btn btn-default" id="buttonTextLinks">Text hinzufügen</button>
+                </div>
             </div>        
         </form>
         <!-- Form-Element in das der Name und die Kategorie für das neu gestaltete Zeichen eingetragen werden soll-->
@@ -64,16 +77,18 @@
             <div class="col-sm-offset-2 col-sm-10">
               <div>
                 <!-- Button der das Speichern des Zeichens übernimmt-->
-                <button type="button" class="btn btn-default" onclick="speichern()">Zeichen speichern</button>
+                <button type="button" class="btn btn-default" onclick="saveSymbol()">Zeichen speichern</button>
               </div>
             </div>
           </div>
           
         </form>
-
+    <!-- nötig um paperscript Fkt anzusprechen-->    
+    <script type="text/javascript">
+        var zeichenGlobal = {};
+    </script>
     <script type="text/paperscript" src="/js/canvas.js" canvas="myCanvas"></script>
     <script type="text/javascript" src="/js/dropdown.js"></script>
-    <script type="text/javascript" src="/js/post.js"></script>
     </body>
 
 </html>

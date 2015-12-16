@@ -48,7 +48,7 @@ function selectSymbol() {
             //console.log(gleich);
             // wenn Symbol-Kategorie und gewählte Kategorie übereinstimmen --> Symbol wird in Dropdown angehängt
             if (gleich === gewaehlteKategorie) {
-                dropSymbole.append('<option>' + value.name + '</option>');
+                dropSymbole.append('<option data-zeichenid="' + value.id + '">' + value.name + '</option>');
             }
         });
     });
@@ -57,10 +57,32 @@ function selectSymbol() {
 // Fkt. die das gewählte Symbol an das Canvas-Element übergibt
 function loadSymbol() {
     
-    var gewaehltesSymbol = $('#dropdownSymbol').val();
-    
-    
+    var gewaehltesSymbol = $('#dropdownSymbol option:selected').attr('data-zeichenid');
+    $.getJSON("./symbols.json", function(json) {
+       $.each(json, function(index, value) {
+          if ( value.id === gewaehltesSymbol)  {
+            zeichenGlobal.loadSVG("img/" + value.filename);
+            console.log(zeichenGlobal.saveSVG());
+          }
+       });
+    });
+}
 
+function saveSymbol() {
+    var svgstring = zeichenGlobal.saveSVG();
+    
+    var zeichen = {
+        id  : "neues Zeichen",
+        kategorie : $('#inputKategorie').val(),
+        title : $('#inputName'),
+        svg : svgstring  
+    };
+    
+    console.log(zeichen);
+    
+    $.post('/img/', zeichen, function(data) {
+        //result
+    });
     
 }
 
@@ -69,3 +91,4 @@ function loadSymbol() {
 $('#dropdownKategorie').change(selectSymbol);
 
 $('#dropdownSymbol').change(loadSymbol);
+
