@@ -124,5 +124,149 @@
         "category": "Grundzeichen",
         "filename": "Grundzeichen_gebaeude.svg",
         "id" : "20"
-    }
+    },
+    {
+        "name": "Brandbekämpfung / Löscheinsatz",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_BrandbekaempfungLoescheinsatz.svg",
+        "id" : "21"
+    },
+    {
+        "name": "Retten aus Höhen und Tiefen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_RettenHoehenTiefen.svg",
+        "id" : "22"
+    },
+    {
+        "name": "Wasserversorgung und -förderung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_WasserversorgungFoerderung.svg",
+        "id" : "23"
+    },
+    {
+        "name": "Technische Hilfeleistung (einschl. Retter)",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_TechnischeHilfeleistung.svg",
+        "id" : "24"
+    },
+    {
+        "name": "Heben von Lasten",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_HebenLasten.svg",
+        "id" : "25"
+    },
+    {
+        "name": "Bergen, Bergung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_BergenBergung.svg",
+        "id" : "26"
+    },
+    {
+        "name": "Räumen, Beseitigung von Hindernissen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_RaeumenBeseitigungHindernisse.svg",
+        "id" : "27"
+    },
+    {
+        "name": "Entschärfung, Kampfmittelräumung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_EntschaerfungKampfmittelraeumung.svg",
+        "id" : "28"
+    },
+    {
+        "name": "Sprengen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Sprengen.svg",
+        "id" : "29"
+    },
+    {
+        "name": "Transport",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Transport.svg",
+        "id" : "30"
+    },
+    {
+        "name": "Beleuchtung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Beleuchtung.svg",
+        "id" : "31"
+    },
+    {
+        "name": "Einsatz von Luftfahrzeugen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_EinsatzLuftfahrzeuge.svg",
+        "id" : "32"
+    },
+    {
+        "name": "Ärztliche Versorgung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_AerztlicheVersorgung.svg",
+        "id" : "33"
+    },
+    {
+        "name": "Rettungswesen, Sanitätswesen, Gesundheitswesen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_RettungswesenSanitaetswesenGesundheitswesen.svg",
+        "id" : "34"
+    },
+    {
+        "name": "Betreuung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Betreuung.svg",
+        "id" : "35"
+    },
+    {
+        "name": "Unterbringung",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Unterbringung.svg",
+        "id" : "36"
+    },
+    {
+        "name": "Instandhaltung, Instandsetzung, materielle Infrastruktur",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_InstandhaltungInstandsetzungMaterielleInfrastruktur.svg",
+        "id" : "37"
+    },    
+    {
+        "name": "Versorgung mit Brauchwasser",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_VersorgungBrauchwasser.svg",
+        "id" : "38"
+    },    
+    {
+        "name": "Versorgung mit Trinkwasser",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_VersorgungTrinkwasser.svg",
+        "id" : "39"
+    },    
+    {
+        "name": "Versorgung mit Elektrizität",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_VersorgungElektrizitaet.svg",
+        "id" : "40"
+    },        
+    {
+        "name": "Versorgung, Logistik",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_VersorgungLogistik.svg",
+        "id" : "41"
+    },        
+    {
+        "name": "Versorgung mit Verbrauchsgütern und Betriebsstoffen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_VersorgungVerbrauchsgüterBetriebsstoffe.svg",
+        "id" : "42"
+    },
+    {
+        "name": "Veterinärwesen",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Veterinaerwesen.svg",
+        "id" : "43"
+    },
+    {
+        "name": "Schlachten",
+        "category": "Fachaufgaben, Gefahrenabwehr",
+        "filename": "FachaufgabenGefahrenabwehr_Schlachten.svg",
+        "id" : "44"
+    }      
 ]
