@@ -1,65 +1,87 @@
 var myPath;
 var tool = new Tool();
 
+//helper function to clear functions attached to tool events - reset!
+function toolReset() {
+  tool.onMouseDown = null;
+  tool.onMouseUp = null;
+  tool.onMouseDrag = null;  
+}
 
 // Funktion für die Eingabe von Textfeldern in das Zeichen
 function textEingeben() {
+    toolReset();
     //console.log('test');
     var text = prompt('Was wollen Sie in das Textfeld schreiben?');
     //console.log(text);
     tool.onMouseDown = function(event) {
-        console.log(event.point);
-        var eingabe = new PointText(new Point(event.point.x, event.point.y));
-        eingabe.fillColor = $('#farbe').val();
-        eingabe.fontSize = '24px';
-        eingabe.content = text;
+        if(text != "") {
+            console.log(event.point);
+            var eingabe = new PointText(new Point(event.point.x, event.point.y));
+            eingabe.fillColor = $('#farbe').val();
+            eingabe.fontSize = '24px';
+            eingabe.content = text;
+            text =""; 
+        }
     };
 }
 
 // Funktion um Freihand zu zeichnen
 function freihandZeichnen() {
+    myPath = new Path();
+    toolReset();
+    
+    tool.onMouseDown = function(event) {
+    //Reset the Path when the user clicks on a new location. prevents a connecting line between the two freehand paths.
+        myPath = new Path();
+    };
+    
     tool.onMouseDrag = function(event) {
+        myPath.strokeColor = $('#farbe').val();
         myPath.add(event.point);
     };
 }
 
 // Funktion um Linien einzufügen
 function linienSegmentZeichnen() {
-       tool.onMouseDown = function(event) {
-            myPath = new Path();
-            myPath.strokeColor = $('#farbe').val();
-            myPath.add(event.point);
-       };
-       tool.onMouseUp = function(event) {
-           myPath.add(event.point);
-       };
-}
-
-// Funktion um Polygone auszufuellen
-/** aktuell noch Problem!!!
-function ausfuellen() {
+    toolReset();
+    myPath = new Path();
     tool.onMouseDown = function(event) {
-        console.log('ausfuellen');
-        var farbe = $('#farbe').val();
-        console.log(farbe);
-        // folgende Zeile ist noch falsch, 
-        myPath.add(event.point.fillColor(farbe));
+        myPath.strokeColor = $('#farbe').val();
+        myPath.add(event.point);
+    };
+    tool.onMouseUp = function(event) {
+       myPath.add(event.point);
     };
 }
-*/
 
-/** Funktion um den Canvas-Bereich wieder zu weißen
-function loeschen() {
-    tool.onMouseDrag = function(event) {
-        var circle = new Path.Circle({
-            center: event.middlePoint,
-            radius: '15px'
-        });
-        circle.strokeColor = 'white';
-        circle.fillColor = 'white';
+//function to draw rectangles
+function drawRectangle() {
+    toolReset();
+    var from, to;
+    tool.onMouseDown = function(event) {
+        from = new Point(event.point.x, event.point.y);
+    };
+    tool.onMouseUp = function(event) {
+        to = new Point(event.point.x, event.point.y);
+        myPath = new Path.Rectangle(from,to);
+        myPath.strokeColor = $('#farbe').val();
+        myPath.fillColor = $('#farbe2').val();
     };
 }
-*/
+
+
+// noch immer buggy!!
+function loeschen() {
+    toolReset();
+    tool.onMouseDown = function(event) {
+        var HitResult = project.hitTest(event.point, {tolerance: 10});
+        if(HitResult) {
+            HitResult.item.remove();
+        }
+    };
+}
+
 
 // zeichenGlobal ist globales Objekt in das alle globalen Variablen/Funktionen geschoben werden sollen
 zeichenGlobal.loadSVG = function(svgstring) {
@@ -72,8 +94,8 @@ zeichenGlobal.saveSVG = function() {
 };
 
 
-//$('#buttonLoeschen').click(loeschen);
-//$('#buttonAusfuellen').click(ausfuellen);
+$('#buttonLoeschen').click(loeschen);
 $('#buttonFreihandZeichnen').click(freihandZeichnen);
 $('#buttonLinienSegment').click(linienSegmentZeichnen);
 $('#buttonText').click(textEingeben);
+$('#buttonRectangle').click(drawRectangle);

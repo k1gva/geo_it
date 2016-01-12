@@ -68,22 +68,24 @@ function loadSymbol() {
     });
 }
 
+// aktuell schmiert alles ab, wenn saveSymbol() aufgerufen wird :(
 function saveSymbol() {
     var svgstring = zeichenGlobal.saveSVG();
     
     var zeichen = {
         id  : "neues Zeichen",
-        kategorie : $('#inputKategorie').val(),
-        title : $('#inputName').val(),
+        category : $('#inputKategorie').val(),
+        name : $('#inputName').val(),
+        keywords : $('#inputKeywords').val().toLowerCase(),
         svg : svgstring  
     };
     
     console.log(zeichen);
     
+    // hier wird das Zeichen das weggeschickt an den Server...
     $.post('/img/', zeichen, function(data) {
-        //result
+        
     });
-    
 }
 
 

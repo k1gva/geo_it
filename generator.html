@@ -9,7 +9,7 @@
         <script type="text/javascript" src="/libs/paper-full.min.js"></script>
         <!-- Bootstrap -->
         <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="style.css" rel="stylesheet"
+        <link href="style.css" rel="stylesheet">
 
     </head>
 
@@ -41,26 +41,39 @@
                 </canvas>
                 <div>
                     <div class="col-sm-2 col-sm-8">
-                      <form class="form-groupl">
-                        <select class="form-control" id="farbe">
-                          <option value="black">Schwarz</option>
-                          <option value="blue">Blau</option>
-                          <option value="red">Rot</option>
-                          <option value="orange">Orange</option>
-                          <option value="yellow">Gelb</option>
-                          <option value="green">Grün</option>
-                          <option value="brown">Braun</option>
-                        </select>
-                      </form>
-                      <button type="button" class="btn btn-default" id="buttonText">Text hinzufügen</button>
-                      <br>
-                      <button type="button" class="btn btn-default" id="buttonLinienSegment">Liniensegment einzeichnen</button>
-                      <br>
-                      <button type="button" class="btn btn-default" id="buttonFreihandZeichnen">Freihand zeichnen</button>
-                      <br>
-                      <button type="button" class="btn btn-default" id="buttonAusfuellen">Ausfüllen</button>
-                      <br>
-                      <button type="button" class="btn btn-default" id="buttonLoeschen">Loeschen</button>
+                        <form class="form-groupl">
+                          <select class="form-control" id="farbe">
+                            <option value="black">Schwarz</option>
+                            <option value="white">Weiß</option>
+                            <option value="blue">Blau</option>
+                            <option value="red">Rot</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Gelb</option>
+                            <option value="green">Grün</option>
+                            <option value="brown">Braun</option>
+                          </select>
+                        </form>
+                        <form class="form-group2">
+                          <select class="form-control" id="farbe2">
+                            <option value="white">Weiß</option>
+                            <option value="black">Schwarz</option>
+                            <option value="blue">Blau</option>
+                            <option value="red">Rot</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Gelb</option>
+                            <option value="green">Grün</option>
+                            <option value="brown">Braun</option>
+                          </select>
+                        </form>
+                        <button type="button" class="btn btn-default" id="buttonText">Text hinzufügen</button>
+                        <br>
+                        <button type="button" class="btn btn-default" id="buttonLinienSegment">Liniensegment einzeichnen</button>
+                        <br>
+                        <button type="button" class="btn btn-default" id="buttonFreihandZeichnen">Freihand zeichnen</button>
+                        <br>
+                        <button type="button" class="btn btn-default" id="buttonLoeschen">Loeschen</button>
+                        <br>
+                        <button type="button" class="btn btn-default" id="buttonRectangle">Rechteck malen</button>
                     </div>
                 </div>
             </div>        
@@ -70,13 +83,19 @@
           <div class="form-group">
             <label for="inputName" class="col-sm-2 control-label">Name des Zeichens</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" placeholder="Name" id="inputName">
+              <input type="text" class="form-control" placeholder="Name..." id="inputName">
             </div>
           </div>
           <div class="form-group">
             <label for="inputKategorie" class="col-sm-2 control-label">Kategorie des Zeichens</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" placeholder="Name" id="inputKategorie">
+              <input type="text" class="form-control" placeholder="Kategorie..." id="inputKategorie">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputKeywords" class="col-sm-2 control-label">Keywords des Zeichens</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" placeholder="Keywords..." id="inputKeywords">
             </div>
           </div>
           <div class="form-group">

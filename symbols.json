@@ -2,270 +2,315 @@
     {
         "name": "Bitte lächeln",
         "category": "Betreuungswesen",
+        "keywords": "",
         "filename": "smile.svg",
         "id" : "666"
     },
     {
         "name": "taktische Formation",
         "category": "Grundzeichen",
+        "keywords": "taktische", "Formation", "Grundzeichen", "Dienststelle", "Einheit", "Verband",
         "filename": "Grundzeichen_taktischeFormation.svg",
         "id" : "1"
     },
     {
         "name": "Befehlsstelle",
         "category": "Grundzeichen",
+        "keywords": "Befehlsstelle", "Führungsstelle", "Grundzeichen",
         "filename": "Grundzeichen_befehlsstelle.svg",
         "id" : "2"
     },
     {
         "name": "Stelle, Einrichtung",
         "category": "Grundzeichen",
+        "keywords": "Stelle", "Einrichtung", "Grundzeichen",
         "filename": "Grundzeichen_stelleEinrichtung.svg",
         "id" : "3"
     },
     {
         "name": "Person",
         "category": "Grundzeichen",
+        "keywords": "Person", "Grundzeichen",
         "filename": "Grundzeichen_person.svg",
         "id" : "4"
     },
     {
         "name": "Gebiet, Fläche",
         "category": "Grundzeichen",
+        "keywords": "Gebiet", "Fläche", "Grundzeichen",
         "filename": "Grundzeichen_gebietFlaeche.svg",
         "id" : "5"
     },
     {
         "name": "Flächenbrand",
         "category": "Grundzeichen",
+        "keywords": "Flächenbrand", "Grundzeichen",
         "filename": "Grundzeichen_flaechenbrand.svg",
         "id" : "6"
     },
     {
         "name": "Überschwemmtes Gebiet, Hochwassser",
         "category": "Grundzeichen",
+        "keywords": "überschwemmt", "Gebiet", "Hochwassser", "Grundzeichen",
         "filename": "Grundzeichen_ueberschwemmtesGebietHochwasser.svg",
         "id" : "7"
     },
     {
         "name": "Dürregebiet",
         "category": "Grundzeichen",
+        "keywords": "Dürregebiet", "Grundzeichen",
         "filename": "Grundzeichen_duerregebiet.svg",
         "id" : "8"
     },
     {
         "name": "Einschränkungen, Ausfall der Versorgung",
         "category": "Grundzeichen",
+        "keywords": "Einschränkungen", "Ausfall", "Versorgung", "Grundzeichen", 
         "filename": "Grundzeichen_einschraenkungenAusfallDerVersorgung.svg",
         "id" : "9"
     },
     {
         "name": "Kontaminiertes Gebiet",
         "category": "Grundzeichen",
+        "keywords": "kontaminiert", "Gebiet", "Grundzeichen",
         "filename": "Grundzeichen_kontaminiertesGebiet.svg",
         "id" : "10"
     },
     {
         "name": "drohende Gefahr",
         "category": "Grundzeichen",
+        "keywords": "drohende", "Gefahr", "Grundzeichen",
         "filename": "Grundzeichen_drohendeGefahr.svg",
         "id" : "11"
     },
     {
         "name": "akute Gefahr",
         "category": "Grundzeichen",
+        "keywords": "akute", "Gefahr", "Grundzeichen",
         "filename": "Grundzeichen_akuteGefahr.svg",
         "id" : "12"
     },
     {
         "name": "Von einer Gefahr noch betroffenes Gebiet, ehemals betroffenes Gebiet",
         "category": "Grundzeichen",
+        "keywords": "Gefahr", "betroffen", "Gebiet", "ehemals", "Grundzeichen",
         "filename": "Grundzeichen_gefahrNochBetroffenesGebiet.svg",
         "id" : "13"
     },
     {
         "name": "KatS-Alarm",
         "category": "Grundzeichen",
+        "keywords": "Katastrophen", "Alarm", "Grundzeichen", "KatS", "Katastrophenschutz", "KatS-Alarm",
         "filename": "Grundzeichen_katS-Alarm.svg",
         "id" : "14"
     },
     {
         "name": "Maßnahme Allgemein",
         "category": "Grundzeichen",
+        "keywords": "Maßnahme", "Allgemein", "Grundzeichen",
         "filename": "Grundzeichen_maßnahmeAllgemein.svg",
         "id" : "15"
     },
     {
         "name": "Anlass, Ereignis",
         "category": "Grundzeichen",
+        "keywords": "Anlass","Ereignis","Grundzeichen",
         "filename": "Grundzeichen_anlassEreignis.svg",
         "id" : "16"
     },
     {
         "name": "Gefahr",
         "category": "Grundzeichen",
+        "keywords": "Gefahr", "Grundzeichen",
         "filename": "Grundzeichen_gefahr.svg",
         "id" : "17"
     },
     {
         "name": "Gebiet, Fläche",
         "category": "Grundzeichen",
+        "keywords": "Gebiet", "Fläche", "Grundzeichen",
         "filename": "Grundzeichen_gebietFlaeche.svg",
         "id" : "18"
     },
     {
         "name": "ortsgebunden, ortsfest",
         "category": "Grundzeichen",
+        "keywords": "ortsgebunden", "ortsfest", "Grundzeichen",
         "filename": "Grundzeichen_ortsgebundenOrtsfest.svg",
         "id" : "19"
     },
     {
         "name": "Gebäude",
         "category": "Grundzeichen",
+        "keywords": "Gebäude", "Grundzeichen",
         "filename": "Grundzeichen_gebaeude.svg",
         "id" : "20"
     },
     {
         "name": "Brandbekämpfung / Löscheinsatz",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Brandbekämpfung", "Löscheinsatz", "Fachaufgaben", "Gefahrenabwehr", 
         "filename": "FachaufgabenGefahrenabwehr_BrandbekaempfungLoescheinsatz.svg",
         "id" : "21"
     },
     {
         "name": "Retten aus Höhen und Tiefen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Retten", "Höhen", "Tiefen", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_RettenHoehenTiefen.svg",
         "id" : "22"
     },
     {
         "name": "Wasserversorgung und -förderung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Wasserversorgung", "Wasserförderung", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_WasserversorgungFoerderung.svg",
         "id" : "23"
     },
     {
         "name": "Technische Hilfeleistung (einschl. Retter)",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Technische", "Hilfeleistung", "Retter", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_TechnischeHilfeleistung.svg",
         "id" : "24"
     },
     {
         "name": "Heben von Lasten",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Heben", "Lasten", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_HebenLasten.svg",
         "id" : "25"
     },
     {
         "name": "Bergen, Bergung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Bergen", "Bergung", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_BergenBergung.svg",
         "id" : "26"
     },
     {
         "name": "Räumen, Beseitigung von Hindernissen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Räumen", "Beseitigung", "Hindernisse", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_RaeumenBeseitigungHindernisse.svg",
         "id" : "27"
     },
     {
         "name": "Entschärfung, Kampfmittelräumung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Entschärfung", "Kampfmittelräumung", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_EntschaerfungKampfmittelraeumung.svg",
         "id" : "28"
     },
     {
         "name": "Sprengen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Sprengen", "Fachaufgaben", "Gefahrenabwehr", 
         "filename": "FachaufgabenGefahrenabwehr_Sprengen.svg",
         "id" : "29"
     },
     {
         "name": "Transport",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Transport","Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_Transport.svg",
         "id" : "30"
     },
     {
         "name": "Beleuchtung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Beleuchtung", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_Beleuchtung.svg",
         "id" : "31"
     },
     {
         "name": "Einsatz von Luftfahrzeugen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Einsatz", "Luftfahrzeuge", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_EinsatzLuftfahrzeuge.svg",
         "id" : "32"
     },
     {
         "name": "Ärztliche Versorgung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Ärztliche", "Versorgung", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_AerztlicheVersorgung.svg",
         "id" : "33"
     },
     {
         "name": "Rettungswesen, Sanitätswesen, Gesundheitswesen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Rettungswesen", "Sanitätswesen", "Gesundheitswesen", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_RettungswesenSanitaetswesenGesundheitswesen.svg",
         "id" : "34"
     },
     {
         "name": "Betreuung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Betreuung", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_Betreuung.svg",
         "id" : "35"
     },
     {
         "name": "Unterbringung",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Unterbringung", "Fachaufgaben", "Gefahrenabwehr", "Betreuungswesen",
         "filename": "FachaufgabenGefahrenabwehr_Unterbringung.svg",
         "id" : "36"
     },
     {
         "name": "Instandhaltung, Instandsetzung, materielle Infrastruktur",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Instandhaltung", "Instandsetzung", "materielle", "Infrastruktur", "Fachaufgaben", "Gefahrenabwehr", 
         "filename": "FachaufgabenGefahrenabwehr_InstandhaltungInstandsetzungMaterielleInfrastruktur.svg",
         "id" : "37"
     },    
     {
         "name": "Versorgung mit Brauchwasser",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Versorgung", "Brauchwasser", "Fachaufgaben", "Brauchwasser", "Logistik",
         "filename": "FachaufgabenGefahrenabwehr_VersorgungBrauchwasser.svg",
         "id" : "38"
     },    
     {
         "name": "Versorgung mit Trinkwasser",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Versorgung", "Trinkwasser", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_VersorgungTrinkwasser.svg",
         "id" : "39"
     },    
     {
         "name": "Versorgung mit Elektrizität",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Versorgung", "Elektrizität", "Fachaufgaben", "Gefahrenabwehr", "Logistik",
         "filename": "FachaufgabenGefahrenabwehr_VersorgungElektrizitaet.svg",
         "id" : "40"
     },        
     {
         "name": "Versorgung, Logistik",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Versorgung", "Logistik", "Fachaufgaben", "Gefahrenabwehr",
         "filename": "FachaufgabenGefahrenabwehr_VersorgungLogistik.svg",
         "id" : "41"
     },        
     {
         "name": "Versorgung mit Verbrauchsgütern und Betriebsstoffen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Versorgung", "Verbrauchsgüter", "Betriebsstoffe", "Fachaufgaben", "Gefahrenabwehr", "Logistik",
         "filename": "FachaufgabenGefahrenabwehr_VersorgungVerbrauchsgüterBetriebsstoffe.svg",
         "id" : "42"
     },
     {
         "name": "Veterinärwesen",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Veterinärwesen", "Fachaufgaben", "Gefahrenabwehr", 
         "filename": "FachaufgabenGefahrenabwehr_Veterinaerwesen.svg",
         "id" : "43"
     },
     {
         "name": "Schlachten",
         "category": "Fachaufgaben, Gefahrenabwehr",
+        "keywords": "Schlachten", "Fachaufgaben", "Gefahrenabwehr", "Veterinärwesen",
         "filename": "FachaufgabenGefahrenabwehr_Schlachten.svg",
         "id" : "44"
     }      
