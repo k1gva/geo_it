@@ -1,36 +1,65 @@
 var myPath;
+var tool = new Tool();
 
-function onMouseDown(event) {
-    myPath = new Path();
-    myPath.strokeColor = 'black';
-    myPath.add(event.point);
+
+// Funktion für die Eingabe von Textfeldern in das Zeichen
+function textEingeben() {
+    //console.log('test');
+    var text = prompt('Was wollen Sie in das Textfeld schreiben?');
+    //console.log(text);
+    tool.onMouseDown = function(event) {
+        console.log(event.point);
+        var eingabe = new PointText(new Point(event.point.x, event.point.y));
+        eingabe.fillColor = $('#farbe').val();
+        eingabe.fontSize = '24px';
+        eingabe.content = text;
+    };
 }
-/**
-function onMouseDrag(event) {
-	myPath.add(event.point);
+
+// Funktion um Freihand zu zeichnen
+function freihandZeichnen() {
+    tool.onMouseDrag = function(event) {
+        myPath.add(event.point);
+    };
+}
+
+// Funktion um Linien einzufügen
+function linienSegmentZeichnen() {
+       tool.onMouseDown = function(event) {
+            myPath = new Path();
+            myPath.strokeColor = $('#farbe').val();
+            myPath.add(event.point);
+       };
+       tool.onMouseUp = function(event) {
+           myPath.add(event.point);
+       };
+}
+
+// Funktion um Polygone auszufuellen
+/** aktuell noch Problem!!!
+function ausfuellen() {
+    tool.onMouseDown = function(event) {
+        console.log('ausfuellen');
+        var farbe = $('#farbe').val();
+        console.log(farbe);
+        // folgende Zeile ist noch falsch, 
+        myPath.add(event.point.fillColor(farbe));
+    };
 }
 */
 
-function onMouseUp(event) {
-    myPath.add(event.point);
+/** Funktion um den Canvas-Bereich wieder zu weißen
+function loeschen() {
+    tool.onMouseDrag = function(event) {
+        var circle = new Path.Circle({
+            center: event.middlePoint,
+            radius: '15px'
+        });
+        circle.strokeColor = 'white';
+        circle.fillColor = 'white';
+    };
 }
-
-console.log('außerhalb text rechts...');
-
-
-// wenn Funktion aufgerufen wird, dauert es > 5 Sekunden bis der Text in das Canvas Objekt geschrieben wird, WHY?????????
-function textRechts() {
-    // asynchroner shit...
-    console.log('innerhalb textRechts2');
-    var inputTextRechts = $('#inputTextRechts').val();
-    
-    var text = new PointText(new Point(225, 225));
-    text.fillColor = 'blue';
-    console.log('vor dem Einfügen');
-    text.content = inputTextRechts;
-    console.log('nach dem Einfügen');
-}
-
+*/
 
 // zeichenGlobal ist globales Objekt in das alle globalen Variablen/Funktionen geschoben werden sollen
 zeichenGlobal.loadSVG = function(svgstring) {
@@ -39,8 +68,12 @@ zeichenGlobal.loadSVG = function(svgstring) {
 };
 
 zeichenGlobal.saveSVG = function() {
-    
     return project.exportSVG({asString : true, matchShapes: true});
 };
 
-$('#buttonTextRechts').click(textRechts);
+
+//$('#buttonLoeschen').click(loeschen);
+//$('#buttonAusfuellen').click(ausfuellen);
+$('#buttonFreihandZeichnen').click(freihandZeichnen);
+$('#buttonLinienSegment').click(linienSegmentZeichnen);
+$('#buttonText').click(textEingeben);

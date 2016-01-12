@@ -39,15 +39,30 @@
                 <canvas id="myCanvas" class="col-sm-2 control-label">
                     Sorry, aber Canvas wird von ihrem Browser nicht unterstützt!
                 </canvas>
-                
                 <div>
-                    <label for="inputText" class="col-sm-2 control-label">Text der in das Zeichen eingefügt werden soll: </label>
                     <div class="col-sm-2 col-sm-8">
-                        <input type="text" class="form-control" id="inputText">
+                      <form class="form-groupl">
+                        <select class="form-control" id="farbe">
+                          <option value="black">Schwarz</option>
+                          <option value="blue">Blau</option>
+                          <option value="red">Rot</option>
+                          <option value="orange">Orange</option>
+                          <option value="yellow">Gelb</option>
+                          <option value="green">Grün</option>
+                          <option value="brown">Braun</option>
+                        </select>
+                      </form>
+                      <button type="button" class="btn btn-default" id="buttonText">Text hinzufügen</button>
+                      <br>
+                      <button type="button" class="btn btn-default" id="buttonLinienSegment">Liniensegment einzeichnen</button>
+                      <br>
+                      <button type="button" class="btn btn-default" id="buttonFreihandZeichnen">Freihand zeichnen</button>
+                      <br>
+                      <button type="button" class="btn btn-default" id="buttonAusfuellen">Ausfüllen</button>
+                      <br>
+                      <button type="button" class="btn btn-default" id="buttonLoeschen">Loeschen</button>
                     </div>
-                    <button type="button" class="btn btn-default" id="buttonText">Text hinzufügen</button>
                 </div>
-                
             </div>        
         </form>
         <!-- Form-Element in das der Name und die Kategorie für das neu gestaltete Zeichen eingetragen werden soll-->

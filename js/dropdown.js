@@ -74,7 +74,7 @@ function saveSymbol() {
     var zeichen = {
         id  : "neues Zeichen",
         kategorie : $('#inputKategorie').val(),
-        title : $('#inputName'),
+        title : $('#inputName').val(),
         svg : svgstring  
     };
     
