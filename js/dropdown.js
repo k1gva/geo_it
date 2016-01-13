@@ -54,6 +54,31 @@ function selectSymbol() {
     });
 }
 
+// Fkt. die alle Symbole nach dem übergebenen Keyword durchsucht
+function searchKeyword() {
+    // eingegbene Keywords werden in kleinbuchstaben gespeichert
+    var keywords = $('#inputKeywords').val().toLocaleLowerCase();
+    console.log(keywords);
+    var symbole = $();
+    
+    // Dropdownmenü in das die zu den gefundenen Keywords passenden Zeichen geschrieben werden
+    var dropdownKeywords = $('#dropdownKeywords');
+    
+    dropdownKeywords.empty();
+    
+    // auslesen der symbols.json Datei
+    $.getJSON("./symbols.json", function(json) {
+        symbole = json;
+        $.each(symbole, function(index, value) {
+            console.log('innerhalb for-each');
+            $.grep(value.keywords, function(element, index) {
+                console.log('keywords');
+                dropdownKeywords.append('<option>' + value.name + '</option>');
+            });
+        });
+    });
+}
+
 // Fkt. die das gewählte Symbol an das Canvas-Element übergibt
 function loadSymbol() {
     
@@ -76,7 +101,7 @@ function saveSymbol() {
         id  : "neues Zeichen",
         category : $('#inputKategorie').val(),
         name : $('#inputName').val(),
-        keywords : $('#inputKeywords').val().toLowerCase(),
+        keywords : $('#inputKeywords').val(),
         svg : svgstring  
     };
     
@@ -91,6 +116,5 @@ function saveSymbol() {
 
 // wenn auf das Dropdown-Menü für die Kategorie ein change-Ereignis stattfindet, dann wird die Funktion selectKategorie aufgerufen
 $('#dropdownKategorie').change(selectSymbol);
-
 $('#dropdownSymbol').change(loadSymbol);
-
+$('#buttonKeyword').click(searchKeyword);

@@ -70,7 +70,6 @@ function drawRectangle() {
     };
 }
 
-
 // noch immer buggy!!
 function loeschen() {
     toolReset();
