@@ -73,7 +73,7 @@ function searchKeyword() {
             console.log('innerhalb for-each');
             $.grep(value.keywords, function(element, index) {
                 console.log('keywords');
-                dropdownKeywords.append('<option>' + value.name + '</option>');
+                dropdownKeywords.append('<option data-zeichenid="' + value.id + '">' + value.name + '</option>');
             });
         });
     });
@@ -92,6 +92,21 @@ function loadSymbol() {
        });
     });
 }
+
+// Fkt. die das gewählte Symbol an das Canvas-Element übergibt
+function loadSymbolKeyword() {
+    
+    var gewaehltesSymbol = $('#dropdownKeywords option:selected').attr('data-zeichenid');
+    $.getJSON("./symbols.json", function(json) {
+       $.each(json, function(index, value) {
+          if ( value.id === gewaehltesSymbol)  {
+            zeichenGlobal.loadSVG("img/" + value.filename);
+            console.log(zeichenGlobal.saveSVG());
+          }
+       });
+    });
+}
+
 
 // aktuell schmiert alles ab, wenn saveSymbol() aufgerufen wird :(
 function saveSymbol() {
@@ -118,3 +133,4 @@ function saveSymbol() {
 $('#dropdownKategorie').change(selectSymbol);
 $('#dropdownSymbol').change(loadSymbol);
 $('#buttonKeyword').click(searchKeyword);
+$('#dropdownKeywords').change(loadSymbolKeyword);
