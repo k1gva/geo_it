@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf8">
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script> -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script type="text/javascript" src="/libs/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="/libs/paper-full.min.js"></script>
         <!-- Bootstrap -->
@@ -54,43 +53,47 @@
                 </canvas>
                 <div>
                     <div class="col-sm-2 col-sm-8">
-                        <form class="form-groupl">
-                          <select class="form-control" id="farbe">
-                            <option value="black">Schwarz</option>
-                            <option value="white">Weiß</option>
-                            <option value="blue">Blau</option>
-                            <option value="red">Rot</option>
-                            <option value="orange">Orange</option>
-                            <option value="yellow">Gelb</option>
-                            <option value="green">Grün</option>
-                            <option value="brown">Braun</option>
-                          </select>
-                        </form>
-                        <form class="form-group2">
-                          <select class="form-control" id="farbe2">
-                            <option value="white">Weiß</option>
-                            <option value="black">Schwarz</option>
-                            <option value="blue">Blau</option>
-                            <option value="red">Rot</option>
-                            <option value="orange">Orange</option>
-                            <option value="yellow">Gelb</option>
-                            <option value="green">Grün</option>
-                            <option value="brown">Braun</option>
-                          </select>
-                        </form>
-                        <button type="button" class="btn btn-default" id="buttonText">Text hinzufügen</button>
-                        <br>
-                        <button type="button" class="btn btn-default" id="buttonLinienSegment">Liniensegment einzeichnen</button>
-                        <br>
-                        <button type="button" class="btn btn-default" id="buttonFreihandZeichnen">Freihand zeichnen</button>
-                        <br>
-                        <button type="button" class="btn btn-default" id="buttonLoeschen">Löschen</button>
-                        <br>
-                        <button type="button" class="btn btn-default" id="buttonRectangle">Rechteck malen</button>
+                        <div class="btn-group-vertical" role="group" aria-label="...">
+                            <form class="form-groupl">
+                              <select class="form-control" id="farbe">
+                                <option value="black">Schwarz</option>
+                                <option value="white">Weiß</option>
+                                <option value="blue">Blau</option>
+                                <option value="red">Rot</option>
+                                <option value="orange">Orange</option>
+                                <option value="yellow">Gelb</option>
+                                <option value="green">Grün</option>
+                                <option value="brown">Braun</option>
+                              </select>
+                            </form>
+                            <form class="form-group2">
+                              <select class="form-control" id="farbe2">
+                                <option value="white">Weiß</option>
+                                <option value="black">Schwarz</option>
+                                <option value="blue">Blau</option>
+                                <option value="red">Rot</option>
+                                <option value="orange">Orange</option>
+                                <option value="yellow">Gelb</option>
+                                <option value="green">Grün</option>
+                                <option value="brown">Braun</option>
+                              </select>
+                            </form>
+                                <button type="button" class="btn btn-default" id="buttonText">Text hinzufügen</button>
+                                <button type="button" class="btn btn-default" id="buttonLinienSegment">Liniensegment einzeichnen</button>
+                                <button type="button" class="btn btn-default" id="buttonCurvedLinienSegment">Geschwungene Linie einzeichnen</button>
+                                <button type="button" class="btn btn-default" id="buttonFreihandZeichnen">Freihand zeichnen</button>
+                                <button type="button" class="btn btn-default" id="buttonVerschieben">Letztes Element verschieben</button>
+                                <button type="button" class="btn btn-default" id="buttonRectangle">Rechteck malen</button>
+                                <button type="button" class="btn btn-default" id="buttonRueckgaengig">Rückgängig</button>
+                                <button type="button" class="btn btn-default" id="buttonLoeschen">Canvas leeren</button>
+                                <button type="button" class="btn btn-default" id="buttonExportSVG">Zeichen als SVG herunterladen</button>
+                                <button type="button" class="btn btn-default" id="buttonExportPDF">Zeichen als PDF herunterladen</button>
+                        </div>
                     </div>
                 </div>
             </div>        
         </form>
+
         <!-- Form-Element in das der Name und die Kategorie für das neu gestaltete Zeichen eingetragen werden soll-->
         <form class="form-horizontal">
           <div class="form-group">

@@ -57,23 +57,28 @@ function selectSymbol() {
 // Fkt. die alle Symbole nach dem übergebenen Keyword durchsucht
 function searchKeyword() {
     // eingegbene Keywords werden in kleinbuchstaben gespeichert
-    var keywords = $('#inputKeywords').val().toLocaleLowerCase();
-    console.log(keywords);
+    var searchString = $('#inputKeywords').val();
+    console.log(searchString);
     var symbole = $();
-    
+
     // Dropdownmenü in das die zu den gefundenen Keywords passenden Zeichen geschrieben werden
     var dropdownKeywords = $('#dropdownKeywords');
-    
-    dropdownKeywords.empty();
+    dropdownKeywords.empty();   // Variable leeren, falls noch Reste drin sind
     
     // auslesen der symbols.json Datei
     $.getJSON("./symbols.json", function(json) {
         symbole = json;
+        // regEx erstellen um nickt auf case-sensitive achten zu müssen
+        var regexp = new RegExp(searchString, 'ig');
+        //cycle through all symbols
         $.each(symbole, function(index, value) {
-            console.log('innerhalb for-each');
-            $.grep(value.keywords, function(element, index) {
-                console.log('keywords');
-                dropdownKeywords.append('<option data-zeichenid="' + value.id + '">' + value.name + '</option>');
+            //check for each keyword in the keywords array
+            value.keywords.map(function(keyword){
+                
+                //match against previously created regexp
+                if(keyword.match(regexp)) {
+                    dropdownKeywords.append('<option data-zeichenid="' + value.id + '">' + value.name + '</option>');
+                }
             });
         });
     });
@@ -93,7 +98,7 @@ function loadSymbol() {
     });
 }
 
-// Fkt. die das gewählte Symbol an das Canvas-Element übergibt
+// Fkt. die das gewählte Symbol, das per Keyword Suche gewählt wurde, an das Canvas-Element übergibt
 function loadSymbolKeyword() {
     
     var gewaehltesSymbol = $('#dropdownKeywords option:selected').attr('data-zeichenid');
@@ -108,26 +113,29 @@ function loadSymbolKeyword() {
 }
 
 
-// aktuell schmiert alles ab, wenn saveSymbol() aufgerufen wird :(
+// Fkt. um das neue Symbol zu speichern
 function saveSymbol() {
     var svgstring = zeichenGlobal.saveSVG();
+    var keyword = $();
+    keyword = $('#inputKeywords').val();
+    console.log(keyword);
     
+    // das Zeichen, das gepostet werden soll als JSON verpackt um es anschließend per POST-Request wegzuschicken
     var zeichen = {
         id  : "neues Zeichen",
         category : $('#inputKategorie').val(),
         name : $('#inputName').val(),
-        keywords : $('#inputKeywords').val(),
+        // keywords wird nicht ordentlich eingelesen -.-
+        keywords : keyword,
+        filename: $('#inputKategorie').val() + '_' +  $('#inputName').val().toLowerCase() + '.svg',
         svg : svgstring  
     };
     
     console.log(zeichen);
-    
     // hier wird das Zeichen das weggeschickt an den Server...
     $.post('/img/', zeichen, function(data) {
-        
     });
 }
-
 
 // wenn auf das Dropdown-Menü für die Kategorie ein change-Ereignis stattfindet, dann wird die Funktion selectKategorie aufgerufen
 $('#dropdownKategorie').change(selectSymbol);
